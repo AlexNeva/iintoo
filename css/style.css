@@ -158,13 +158,13 @@ body {
 .wrapper {
   position: relative;
   min-width: 320px;
-  max-width: 1340px;
+  max-width: 1440px;
   margin: 0 auto;
   min-height: 100%;
 }
 
 .container {
-  max-width: 1340px;
+  max-width: 1440px;
   padding-left: var(--container-side-padding);
   padding-right: var(--container-side-padding);
   margin: 0 auto;
@@ -211,7 +211,7 @@ button {
   -webkit-transform: translate(-50%, 0);
       -ms-transform: translate(-50%, 0);
           transform: translate(-50%, 0);
-  width: calc(100% - var(--container-side-padding) * 2);
+  width: 100%;
   padding-top: 40px;
   padding-bottom: 40px;
 }
@@ -473,10 +473,6 @@ button {
 .form__agree a {
   -ms-flex-negative: 0;
       flex-shrink: 0;
-  display: -webkit-inline-box;
-  display: -ms-inline-flexbox;
-  display: inline-flex;
-  margin-left: 5px;
   color: #3698fb;
   text-decoration: underline;
 }
@@ -585,9 +581,9 @@ button {
   background-color: #3698fb;
 }
 
-@media (max-width: 1340px) {
+@media (max-width: 1440px) {
   body {
-    font-size: calc(14px + 4 * ((100vw - 320px) / (1340 - 320)));
+    font-size: calc(14px + 4 * ((100vw - 320px) / (1440 - 320)));
   }
 }
 
